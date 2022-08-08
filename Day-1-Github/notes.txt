@@ -1,0 +1,11 @@
+Git Commands
+
+1. git clone :- to copy repositry 
+2. git add :- to add files 
+3. git commit:- to snapshots the file permanently
+4. git push :- to push the code to your repo 
+5. git pull:- to pull the code from your repo 
+6. git status:- to list all the files 
+7. git branch:- to show all the local branches 
+8. git checkout:- to switch one branch to another
+9. git merge:- to merge the branches
