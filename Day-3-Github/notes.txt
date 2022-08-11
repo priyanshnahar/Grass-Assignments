@@ -1,2 +1,0 @@
-what is an array ?
-array is an object that can store multiple variable 
