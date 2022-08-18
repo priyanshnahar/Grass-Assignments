@@ -1,0 +1,4 @@
+what is eventLoop in javasript ?
+Js code runs line by line but what happen when any function take to time to execute 
+the javasript engien executes a script from the top of the file and works its way down 
+and when a function takes a lot of time 

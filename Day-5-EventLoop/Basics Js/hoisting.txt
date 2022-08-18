@@ -1,0 +1,13 @@
+What is Hoisting in JavaScript?
+
+in js hoisiting it will appear line by line which means first it willl declare all the variables at the top,
+then it will declare all the functions and then it will describe all the values 
+
+One of the advantages of hoisting is that it lets you use a function before you declare it in your code 
+
+for example:- 
+myName("Priyansh");
+
+function myName(name) {
+  console.log(`My name is ${name}`);
+}

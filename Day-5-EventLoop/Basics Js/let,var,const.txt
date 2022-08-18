@@ -1,0 +1,58 @@
+In JavaScript we can declare variables by using 3 keywords which are :-
+Let, Var, and Const
+
+Difference between Var, Let and Const
+1. Var:- We can say var is a Global or functional scope which means we can access
+var inside the function (variables defined inside a particular function can be accessed within the function) and outside the function can be access globally
+for example:- 
+var a = 10
+function b(){
+    console.log(a);
+}
+b();
+console.log(a);
+
+In the above example we have declared variable a globally therefore for we can access it everywhere in the programm 
+and we will get the answer :- 
+10
+10
+
+But now if we describe the var inside the function then what result will we get let's see
+
+function b(){
+    var a = 10;
+    console.log(a)
+}
+b();
+console.log(a);
+
+So in the above example we have declared variable inside the function and we are trying to acces it outside the function,
+The results are:-
+10
+VM53:6 Uncaught ReferenceError: a is not defined
+    at <anonymous>:6:13
+
+2. Let:- let is a block scope variable which means it can't be accessebale outiside the block 
+let a = 10;
+function b(){
+    let b = 9
+    console.log(b);
+    console.log(a);
+}
+b();
+
+here the ans wil be 
+9
+10
+
+3. Const:- The scope of a const variable is also block scope we can not update the const variables 
+for example 
+
+const a = 10;
+console.log(a);
+const a = 9;
+console.log(a);
+
+in the above example we have change the value of a two times 
+
+
