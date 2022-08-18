@@ -1,0 +1,10 @@
+What is Asynchronous Function:- 
+An async function is a function which takes time it is declared with the async and await keyword 
+
+API's :- Application Progrraming Interface
+
+GET :- to read or retrieve a resource from backend.
+POST :- To create a new data.
+PUT :- To modify the data or to update the data.
+Delete :- To delete the data.
+Patch :- To pass the data you want to update.
