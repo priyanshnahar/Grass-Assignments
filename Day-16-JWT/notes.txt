@@ -1,0 +1,22 @@
+JWT :- JASON WEB TOKEN 
+
+JWT has three parts 
+1. HEADER:- in header we defiene alogrithm{alogorithm means we make a data from our string} and type of token
+
+2. PAYLOAD:- in payload there's a data which we decode
+
+3. SIGNATURE:- in signature there's a secret which we store in our application  + alogorithm keyword (base64){base64 is a binary to ASCII encoding scheme}
+
+
+Inside the function of jwt we have to give three things:- 
+
+1. data which we have to encode 
+
+2. secret 
+
+3. expiresIn when token should expire
+
+
+What is a Middleware function ? 
+Middleware function is a function which runs between two functions, this function will have all
+the access for requesting an object, and moving to the next middleware function.
